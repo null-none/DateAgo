@@ -1,4 +1,7 @@
 <?php
+
+namespace DateAgo;
+
 /**
  * Класс для вывода даты, который показывает как давно был создан объект.
  */
@@ -65,7 +68,7 @@ class DateAgo {
 	 */
 	function agoMinute() {
 		$title = array('минуту','минуты','минут');
-		$this->printString($this->result/$this->minute,$this->plural($this->result/$this->minute,$title));	
+		$this->printString($this->result/$this->minute,$this->plural($this->result/$this->minute,$title));
 	}
 
 	/**
@@ -73,7 +76,7 @@ class DateAgo {
 	 */
 	function agoDay() {
 		$title = array('день','дней','дней');
-		$this->printString($this->result/$this->day,$this->plural($this->result/$this->day,$title));	
+		$this->printString($this->result/$this->day,$this->plural($this->result/$this->day,$title));
 	}
 
 	/**
@@ -81,7 +84,7 @@ class DateAgo {
 	 */
 	function agoMonth() {
 		$title = array('месяц','месяцев','месяцев');
-		$this->printString($this->result/$this->month,$this->plural($this->result/$this->month,$title));			
+		$this->printString($this->result/$this->month,$this->plural($this->result/$this->month,$title));
 	}
 
 	/**
@@ -89,7 +92,7 @@ class DateAgo {
 	 */
 	function agoYear() {
 		$title = array('год','года','год');
-		$this->printString($this->result/$this->year,$this->plural($this->result/$this->year,$title));			
+		$this->printString($this->result/$this->year,$this->plural($this->result/$this->year,$title));
 	}
 
 	/**
@@ -109,7 +112,7 @@ class DateAgo {
 	    if ($n > 10 && $n < 20) return $title[2];
 	    if ($n1 > 1 && $n1 < 5) return $title[1];
 	    if ($n1 == 1) return $title[0];
-	    return $title[2];		
+	    return $title[2];
 	}
 
 }

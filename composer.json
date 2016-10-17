@@ -1,0 +1,13 @@
+{
+    "name": "dmitry/date-ago",
+    "description": "Library for convert string to time ago",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Kalinin",
+            "email": "dmitry.kalinin.email@gmail.com"
+        }
+    ],
+    "require": {}
+}
