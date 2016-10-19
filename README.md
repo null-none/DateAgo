@@ -1,13 +1,13 @@
 PHP class for format date after created.
 
 
-### Install ###
+## Install
 
 ```bash
 composer require dmitry/date-ago
 ```
 
-### Example ###
+## Example
 
 ```php
 $date = new DateAgo();
@@ -15,5 +15,6 @@ $date->current= strtotime("31.10.2011");
 $date->agoPrint();
 ```
 
-### License ### 
+## License
+
 MIT
