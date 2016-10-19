@@ -14,3 +14,6 @@ $date = new DateAgo();
 $date->current= strtotime("31.10.2011");
 $date->agoPrint();
 ```
+
+### License ### 
+MIT
